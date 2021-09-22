@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quizOnTriangle</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav>
+        <a href="Area.html">Area</a>
+        <a href="CalculateHypo.html">Hypotenuse</a>
+        <a href="quizOnTriangle.html">Quiz</a>
+        <a href="isTriangle.html">IsTriangle</a>
+    </nav>
+    <form id="form">
+        <div class="container">
+            <h1>Quiz On </h1>
+            <p>What is third angle if angle1=45&deg; and angle2=45&deg;?</p>
+                    <label>
+                        <input type="radio" name="question1" value="45&deg;">45&deg;
+                    </label>
+                    <label>
+                        <input type="radio" name="question1" value="60&deg;">60&deg;
+                    </label>
+                    <label>
+                        <input type="radio" name="question1" value="60&deg;">90&deg;
+                    </label>
+                </div>
+        <div class="container">
+            <p>A triangle can have ?</p>
+            <label>
+                <input type="radio" name="question2" value="one right angle">one right angle;
+            </label>
+            <label>
+                <input type="radio" name="question2" value="two right angle">Two right angles
+            </label>
+        </div>
+        <div class="container">
+            <p>Which of the triangle can form right angled triangle?</p>
+            <label>
+                <input type="radio" name="question3" value="3,4,5">3,4,5
+            </label>
+            <label>
+                <input type="radio" name="question3" value="16,17,19">16,17,19
+            </label>
+            <label>
+                <input type="radio" name="question3" value="7,4,12">7,4,12
+            </label>
+        </div>
+        <div class="container">
+            <p>Which of the following triangles have 3 sides same length?</p>
+            <label>
+                <input type="radio" name="question4" value="Equilateral Triangle">Equilateral Triangle
+            </label>
+            <label>
+                <input type="radio" name="question4" value="Isoceles Triangle">Isoceles Triangle
+            </label>
+        </div>
+        <div class="container">
+            <p>Perimeter of scalene triangle?</p>
+            <label>
+                <input type="radio" name="question5" value="a+b+c"/> a+b+c
+            </label>
+            <label>
+                <input type="radio" name="question5" value="2a"/> 2a
+            </label>
+            <label>
+                <input type="radio" name="question5" value="None of these"> None of these
+            </label>
+        </div>
+        <div class="container">
+            <p>A scalene triangle has ___ lines of symmetry</p>
+            <label>
+                <input type="radio" name="question6" value="one">one 
+            </label>
+            <label>
+                <input type="radio" name="question6" value="two"> two
+            </label>
+            <label>
+                <input type="radio" name="question6" value="zero"> zero
+            </label>
+         </div>
+    </form>
+    <button id="button">Submit</button>
+    <p id="output"></p>
+    <script src="app1.js"></script>
+</body>
+</html>
