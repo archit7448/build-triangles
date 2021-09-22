@@ -5,9 +5,9 @@ const outputContainer = document.querySelector("#output")
 function checkHandler(){
     const add = calculateSum()
     if(add === 180){
-        outputContainer.innerText = "this is a triangle"
+        outputContainer.innerText = "This is a triangle"
     }else{
-        outputContainer.innerText = "this is not a triangle"
+        outputContainer.innerText = "This is not a triangle"
     }
 }
 
